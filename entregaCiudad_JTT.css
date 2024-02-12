@@ -1,0 +1,135 @@
+#Todo {
+    background-color: rgb(203, 218, 226);
+    color: rgb(25, 30, 52);
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    margin: 18px;
+    padding: 15px;
+    font-size: medium;
+}
+
+.titulos {
+    writing-mode: horizontal-tb;
+    direction: rtl;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+h4 {
+    font-size: 18px;
+    border-bottom: solid 2px black;
+    font-family: 'Cinzel', serif;
+}
+
+h3{
+    font-size: 18px;
+    font-family: 'Cinzel', serif;
+}
+
+.imagen1 img {
+    width: 120px;
+    border-radius: 100%;
+    float: left;
+}
+
+.imagen img {
+    width: 120px;
+    border-radius: 100%;
+    float: right;
+}
+
+.fotohistoria img,
+.imagen2 img,
+.imagentransp img,
+.imagen3 img,
+.imagen6 img,
+.lugaresinteres img,
+.imagn3 img,
+.yrurl img,
+.marnoruega img {
+    width: 400px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.presentacion,
+.historia,
+.lugaresinteres,
+.clima,
+.comida,
+.transporte {
+    text-align:justify;
+}
+
+#preguntaClima,
+#preguntaComida {
+    text-align: center;
+    background-color: #cdd1d1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+button {
+    background-color: #3498db;
+    color: #f2f8f9;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#resultado,
+#resultado1 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(201, 221, 228);
+    padding: 20px;
+    text-align: center;
+}
+
+footer div {
+    margin-bottom: 20px;
+}
+
+.contacto p {
+    margin: 5px 0;
+}
+
+.redes-sociales a,
+.otros-enlaces a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.redes-sociales a:hover,
+.otros-enlaces a:hover {
+    color: #007bff;
+}
+
+.valoracion {
+    font-size: 2em;
+    cursor: pointer;
+}
+.star:hover,
+.star.active {
+    color: gold;
+}
